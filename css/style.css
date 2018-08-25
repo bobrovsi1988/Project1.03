@@ -26,9 +26,31 @@ a {
     text-decoration: none;
     color: white; }
 
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 141px; }
+
+.write_us {
+  height: 50%; }
+  .write_us .vertical_text {
+    transform: rotate(270deg);
+    transform-origin: 20px bottom;
+    font-family: Bold;
+    font-size: 12pt;
+    color: white;
+    width: 300px;
+    margin: 100% 0; }
+  .write_us img {
+    margin-right: 10px; }
+
 header {
-  background-image: url(../img/header-bg.png);
-  background-size: 100%; }
+  background-size: cover; }
+  header .bg1 {
+    background-image: url("../img/bg1.png"); }
+  header .bg2 {
+    background-image: url("../img/bg2.png"); }
   header .menu {
     margin: 5px 0 0 0;
     display: flex;
@@ -134,10 +156,6 @@ header {
   background-repeat: no-repeat;
   height: 435px; }
   .second_block .social {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 141px;
     margin-top: 58px; }
   .second_block .write_us {
     height: 50%;
@@ -268,6 +286,207 @@ header {
         width: 32px;
         border: 1px solid white;
         margin-top: 10px; }
+
+.therd_row {
+  margin-top: -50px;
+  background-color: white;
+  width: 1454px;
+  padding-top: 30px; }
+  .therd_row .therd_row_cetr {
+    width: 1230px;
+    font-family: ExtraBold;
+    font-size: 14pt;
+    line-height: 17pt;
+    color: #50545e; }
+  .therd_row .therd_row_blocs {
+    margin-top: 17px;
+    margin-bottom: 45px; }
+    .therd_row .therd_row_blocs h5 {
+      margin-top: 25px;
+      color: #6a5991;
+      font-size: 18pt; }
+    .therd_row .therd_row_blocs p {
+      line-height: 14pt; }
+    .therd_row .therd_row_blocs .col-3 div {
+      border-right: 1px solid #6a5991; }
+    .therd_row .therd_row_blocs .col-3 .no_border {
+      border: none; }
+    .therd_row .therd_row_blocs .font_color_blue {
+      color: #5693b9; }
+  .therd_row img {
+    margin-right: 12px; }
+  .therd_row .logo_text {
+    font-size: 24pt;
+    line-height: 25px;
+    color: #3d424e; }
+    .therd_row .logo_text span {
+      color: #5693b9; }
+
+.call_back {
+  background-image: url("../img/call_back/header-bg.png");
+  height: 269px;
+  color: white;
+  font-family: Bold;
+  font-size: 19pt; }
+  .call_back h5 {
+    margin-top: 50px; }
+  .call_back input::-webkit-input-placeholder {
+    color: white; }
+  .call_back input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white; }
+    .call_back input::-webkit-input-placeholder {
+      color: white;
+      font-family: Bold;
+      font-size: 14pt; }
+    .call_back input::-moz-placeholder {
+      color: white;
+      font-family: Bold;
+      font-size: 14pt; }
+  .call_back form button {
+    background-color: #5693b9;
+    color: white;
+    border: none;
+    width: 275px;
+    height: 45px;
+    font-size: 12pt;
+    font-family: ExtraBold; }
+    .call_back form button:hover {
+      cursor: pointer; }
+
+.reviews {
+  margin-top: 40px; }
+  .reviews .reviews_heder {
+    width: 1230px;
+    margin-bottom: 55px; }
+  .reviews .col-4 {
+    border-right: 1px solid #cccccc;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    /* IE 6-9 */ }
+    .reviews .col-4:hover {
+      -webkit-filter: none;
+      -moz-filter: none;
+      -ms-filter: none;
+      -o-filter: none;
+      filter: none;
+      filter: none;
+      /* IE 6-9 */ }
+      .reviews .col-4:hover button {
+        background-color: #5693b9;
+        cursor: pointer;
+        color: white; }
+      .reviews .col-4:hover p {
+        color: #50545e; }
+      .reviews .col-4:hover h5 {
+        color: #5693b9; }
+      .reviews .col-4:hover address {
+        color: #456d86; }
+      .reviews .col-4:hover .reviews_date p {
+        color: #d7dce3; }
+  .reviews h2 {
+    font-family: ExtraBold;
+    font-size: 24pt;
+    color: #3d424e;
+    margin-bottom: 0;
+    margin-right: 15px; }
+  .reviews a {
+    color: #7d8391; }
+  .reviews .reviews_date {
+    font-family: ExtraBold;
+    font-size: 12pt;
+    color: #d7dce3;
+    border-bottom: 5px solid #d7dce3; }
+  .reviews img {
+    margin-bottom: 60px;
+    margin-top: 55px; }
+  .reviews section {
+    font-family: ExtraBold; }
+    .reviews section h5 {
+      font-size: 18pt;
+      color: #818e9c; }
+    .reviews section address {
+      font-size: 14pt;
+      color: #9fa8b2; }
+    .reviews section p {
+      font-family: Bold;
+      font-size: 14pt;
+      line-height: 14pt;
+      margin-bottom: 25px;
+      color: #70737a; }
+  .reviews button {
+    background-color: #e8ebf0;
+    color: #87909a;
+    border: none;
+    width: 275px;
+    height: 45px;
+    font-size: 12pt;
+    font-family: ExtraBold; }
+    .reviews button:hover {
+      background-color: #5693b9;
+      cursor: pointer;
+      color: white; }
+  .reviews .arrow_btn_up {
+    width: 32px;
+    height: 30px;
+    background-image: url("../img/reviews/arrow_up.png"); }
+  .reviews .arrow_btn_down {
+    width: 32px;
+    height: 30px;
+    background-image: url("../img/reviews/arrow_down.png"); }
+
+.row_partners {
+  border-top: 2px solid #bcc5ce;
+  margin-top: 55px;
+  height: 127px; }
+  .row_partners img {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    /* IE 6-9 */ }
+    .row_partners img:hover {
+      -webkit-filter: none;
+      -moz-filter: none;
+      -ms-filter: none;
+      -o-filter: none;
+      filter: none;
+      filter: none;
+      /* IE 6-9 */ }
+
+.about_us {
+  background-image: url("../img/footer/bg3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 369px; }
+  .about_us .col-6 {
+    color: white; }
+  .about_us p {
+    font-size: 16pt;
+    font-family: Bold; }
+  .about_us h3 {
+    font-family: Medium;
+    font-size: 24pt; }
+    .about_us h3 span {
+      font-family: ExtraBold; }
+  .about_us .contact {
+    font-family: Bold;
+    font-size: 16pt; }
+  .about_us button {
+    height: 45px;
+    color: #5d6371;
+    background-color: white;
+    width: 226px;
+    font-family: ExtraBold;
+    font-size: 12pt; }
 
 .reset {
   margin: 0;
