@@ -159,14 +159,15 @@ a{
   }
 
 }
+.bg1{
+  background-image: url("../img/bg1.png");
+
+}.bg2{
+   background-image: url("../img/bg2.png");
+ }
 header{
 
-  .bg1{
-    background-image: url("../img/bg1.png");
 
-  }.bg2{
-    background-image: url("../img/bg2.png");
-  }
 
   //background-image: url(../img/header-bg.png);
   background-size: cover;

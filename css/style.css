@@ -120,12 +120,14 @@ a {
   .write_us img {
     margin-right: 10px; }
 
+.bg1 {
+  background-image: url("../img/bg1.png"); }
+
+.bg2 {
+  background-image: url("../img/bg2.png"); }
+
 header {
   background-size: cover; }
-  header .bg1 {
-    background-image: url("../img/bg1.png"); }
-  header .bg2 {
-    background-image: url("../img/bg2.png"); }
   header .menu {
     margin: 5px 0 0 0;
     display: flex;
