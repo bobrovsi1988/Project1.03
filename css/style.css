@@ -148,20 +148,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-  header .parametr {
-    background-color: #a8acb3;
-    height: 45px;
-    width: 269px;
-    display: flex;
-    padding: 13px;
-    align-items: center;
-    justify-content: space-between; }
-    header .parametr p {
-      text-transform: uppercase;
-      font-family: ExtraBold;
-      font-size: 12px;
-      color: white;
-      margin-top: 13px; }
   header .search {
     list-style: none;
     width: 356px; }
